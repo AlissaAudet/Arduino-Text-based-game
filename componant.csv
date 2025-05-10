@@ -1,0 +1,6 @@
+﻿Nom,Quantité,Composant
+"U1",1," Arduino Uno R3"
+"U4",1,"Basé sur PCF8574, 39 (0x27) Écran LCD 16x2 (I2C)"
+"S1, S2",2," Bouton-poussoir"
+"R3, R4, R5, R6",4,"220 Ω Résistance"
+"D1, D2",2,"Rouge LED"
