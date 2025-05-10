@@ -12,6 +12,7 @@ const int button2 = 2;
 const int ledPin1 = 7;
 const int ledPin2 = 8;
 
+//Last state of the button
 bool button1Prev;
 bool button2Prev;
 
@@ -238,7 +239,7 @@ void loop() {
       break;
   }
 
-  // Transition to animation if end screen and button pressed (but only once released)
+  // Transition to animation if end screen and button pressed 
   if (waitingForButtonRelease) {
     if (button1Current == HIGH && button2Current == HIGH) {
       waitingForButtonRelease = false;
